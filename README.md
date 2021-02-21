@@ -25,7 +25,7 @@ Zarola, güvenli ve hatırlanabilir parolalar oluşturmanızı sağlayan bir yö
 
 Örnek kelime listesi:
 
-14236	asamble
+14236	asamble\n
 14241	asap
 14242	asar
 14243	asbest
