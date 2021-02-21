@@ -34,30 +34,52 @@ Zarola, güvenli ve hatırlanabilir parolalar oluşturmanızı sağlayan bir yö
 14243	asbest
 
 14244	asepsi
-14245	ases
-14246	asetat
-14251	asetik
-14252	aseton
-14253	asfalt
-14254	ashap
-14255	asi
-14256	aside
-14261	asil
-14262	asistan
-14263	asit
-14264	ask
-14265	askarit
-14266	asker
-14311	asla
-14312	aslan
-14313	aslen
-14314	asliye
-Listede toplam 7776 kısa kelime ve işaret bulunmaktadır. Türkçe için sunulan kelime listesi Alper Atmaca tarafından oluşturulmuştur.
 
+14245	ases
+
+14246	asetat
+
+14251	asetik
+
+14252	aseton
+
+14253	asfalt
+
+14254	ashap
+
+14255	asi
+
+14256	aside
+
+14261	asil
+
+14262	asistan
+
+14263	asit
+
+14264	ask
+
+14265	askarit
+
+14266	asker
+
+14311	asla
+
+14312	aslan
+
+14313	aslen
+
+14314	asliye
+
+Listede toplam 7776 kısa kelime ve işaret bulunmaktadır. Türkçe için sunulan kelime listesi Alper Atmaca tarafından oluşturulmuştur.
 Zarola şifreleri kendi sitesinden oluşturmak daha sağlıklıdır. Resmi Zarola sitesi aşağıdadır.
 
 https://zarola.oyd.org.tr/
 
 Benim hazırlamış olduğum kod içeriğinde fiziksel bir zara sahip olmadan zar atışı yapılır (rastgele sayı üretilir) ve oluşturulan değerlere karşılık gelen kelimeleri ekrana çıktı olarak verir. Programı çalıştırdığınızda sizden 5 rakamına tam bölünebilen bir sayı girmenizi istyecek bunun nedeni listdeki kelimelerin beşer hane ile bölünmüş olmasıdır örneğin;
+
 //14314	asliye
+
 asliye kelimesini elde etmek için elimizdeki fiziksel zar ile sırasıyla 1-4-3-1-4 atmamız gerekecekti.
+
+Ayrıca programa girdiğiniz değer bir tam sayı olmalıdır. Kelime veya tam sayı olmayan değerlerde yeni bir girdi isteyecektir.
