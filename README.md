@@ -72,7 +72,8 @@ Zarola, güvenli ve hatırlanabilir parolalar oluşturmanızı sağlayan bir yö
 14314	asliye
 
 Listede toplam 7776 kısa kelime ve işaret bulunmaktadır. Türkçe için sunulan kelime listesi Alper Atmaca tarafından oluşturulmuştur.
-Zarola şifreleri kendi sitesinden oluşturmak daha sağlıklıdır. Resmi Zarola sitesi aşağıdadır.
+
+Zarola şifreleri kendi sitesindeki talimatlar ile oluşturmak daha sağlıklıdır. Resmi Zarola sitesi aşağıdadır.
 
 https://zarola.oyd.org.tr/
 
