@@ -25,10 +25,14 @@ Zarola, güvenli ve hatırlanabilir parolalar oluşturmanızı sağlayan bir yö
 
 Örnek kelime listesi:
 
-14236	asamble\n
+14236	asamble
+
 14241	asap
+
 14242	asar
+
 14243	asbest
+
 14244	asepsi
 14245	ases
 14246	asetat
