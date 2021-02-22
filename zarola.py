@@ -6,11 +6,14 @@ def kul_girisi():
         try:
             us=int(input("Şifre için atılacak zar sayısını giriniz :"))
         except ValueError:
-            print("Lütfen bir sayı giriniz.")
-        if us%5==0:
-            return us
+            print("Lütfen sadece sayı kullanınız.")
+        except UnboundLocalError:
+            print("Lütfen sadece sayı kullanınız.")
         else:
-            print("Lütfen 5'e tam bölünebilen bir sayi giriniz.")
+            if us%5==0:
+                return us
+            else:
+                print("Lütfen 5'e tam bölünebilen bir sayı giriniz.")
 def zar_at(x):
     ls=[]
     st=""
@@ -23,7 +26,7 @@ def zar_at(x):
 def sifre_cevir(x):
     with open("zarola.json") as f:
         data=json.load(f)
-    print("\n\n\n")
+    print("\n")
     for i in range(0,len(x)):
         for j in data:
             if x[i]==str(j["numara"]):
