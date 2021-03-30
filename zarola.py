@@ -1,19 +1,25 @@
 import json
 import random
 def kul_girisi():
-    print("Lütfen 5'e tam bölünebilen bir tam sayı giriniz.")
+    print(''' _____               _       
+|__  /__ _ _ __ ___ | | __ _ 
+  / // _` | '__/ _ \| |/ _` |
+ / /| (_| | | | (_) | | (_| |
+/____\__,_|_|  \___/|_|\__,_|
+                             
+''')
     while 1:
         try:
-            us=int(input("Şifre için atılacak zar sayısını giriniz :"))
+            sayi=int(input("Şifre için atılacak zar sayısını giriniz :"))
+            break
         except ValueError:
             print("Lütfen sadece sayı kullanınız.")
         except UnboundLocalError:
             print("Lütfen sadece sayı kullanınız.")
         else:
-            if us%5==0:
-                return us
-            else:
-                print("Lütfen 5'e tam bölünebilen bir sayı giriniz.")
+            sayi=int(input("Şifre için atılacak zar sayısını giriniz: "))
+            break
+    return sayi*5
 def zar_at(x):
     ls=[]
     st=""
@@ -24,13 +30,14 @@ def zar_at(x):
             st=""
     return ls
 def sifre_cevir(x):
-    with open("zarola.json") as f:
+    with open('zarola.json') as f:
         data=json.load(f)
-    print("\n")
+    print("\nŞifreniz : ",end="")
     for i in range(0,len(x)):
         for j in data:
             if x[i]==str(j["numara"]):
                 print(j["kelime"],end=" ")
                 break
+    print("\n")
 
 x=sifre_cevir(zar_at(kul_girisi()))
